@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
     import RPC from "./evm";
   
-const clientId = "YOUR_CLIENT_ID"; // get from https://dashboard.web3auth.io
+const clientId = "BJkibIW9MR7OBQ_teNNTJOFpgzU8lIqmIQnrVF-z6N2M21wRBA5P4XtJ9h9B8Qf1mMba0g-BjGCAJ2kpnpPBITI"; // get from https://dashboard.web3auth.io
 
 function App() {
   const [web3auth, setWeb3auth] = useState<Web3Auth | null>(null);
