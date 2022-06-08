@@ -187,10 +187,9 @@ const openloginAdapter = new OpenloginAdapter({
   return (
     <div className="container">
       <h1 className="title">
-        <a target="_blank" href="http://web3auth.io/" rel="noreferrer">
-          Web3Auth
+        <a target="_blank" href="http://www.kryptonomic.io/" rel="noreferrer">
+          Kryptonomic Web3 Example
         </a>
-        & ReactJS Example
       </h1>
 
       <div className="grid">{provider ? loggedInView : unloggedInView}</div>
